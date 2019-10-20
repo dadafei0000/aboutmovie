@@ -1,2 +1,0 @@
-# aboutmovie
-Created with CodeSandbox

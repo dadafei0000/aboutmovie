@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+body{
+  margin:35px;
+  background-color: green;
+}
+h2{
+  color:rgb(223, 50, 116);
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+
+}
+.li-container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+
+  color: rgb(57, 63, 78);
+}
+li{
+  color: #c72727;
+  font-weight: bold;
+}
+.image {
+  height: 350px;
+  width: 250px;
+  opacity: 13;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.App {
+  text-align: center;
+}
+button{
+  height: 20px;
+  border: none; 
+}
+button {
+  visibility: hidden;
+}
+
+img:hover + button, button:hover {
+  /*display: inline-block; */
+  visibility: visible
+}

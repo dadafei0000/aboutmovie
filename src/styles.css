@@ -5,10 +5,10 @@
 }
 body{
   margin:35px;
-  background-color: green;
+  background-color: rgb(5, 5, 5);
 }
 h2{
-  color:rgb(223, 50, 116);
+  color:rgb(248, 245, 246);
 }
 
 
@@ -23,10 +23,10 @@ h2{
   padding: 20px;
   text-align: center;
 
-  color: rgb(57, 63, 78);
+  color: white;
 }
 li{
-  color: #c72727;
+  color: white;
   font-weight: bold;
 }
 .image {
@@ -44,6 +44,9 @@ li{
 button{
   height: 20px;
   border: none; 
+  color:green;
+  font-weight:bold;
+  background-color:pink;
 }
 button {
   visibility: hidden;

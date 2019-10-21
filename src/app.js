@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from "./pic/logo.jpg"
 import Layout from './layout.js';
 import { connect } from 'react-redux';
 
@@ -13,7 +13,7 @@ class App extends React.Component{
     const {mylist,recommendationList,RemoveHandler,AddHandler} = this.props
     return (
         <div>
-            
+             <img src={logo} ></img>
             <Layout listName="My List" list={mylist} eventhandler={RemoveHandler}></Layout>
             <Layout listName="Recommendation" list={recommendationList} eventhandler={AddHandler}></Layout>
             <h2>movie List</h2>
